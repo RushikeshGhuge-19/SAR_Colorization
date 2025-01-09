@@ -19,23 +19,6 @@ Technologies Used
 - scikit-image: For calculating PSNR and SSIM metrics.
 - Git: For version control and project management.
 
-Project Structure
-SAR_Image_Colorization/
-├── data/
-│   ├── sar_images_subset/         # Subset of SAR images
-│   ├── optical_images_subset/     # Subset of Optical images
-├── generated_images/              # Directory for storing generated colorized images
-├── models/
-│   ├── generator.py               # Generator model for cGAN
-│   ├── discriminator.py           # Discriminator model for cGAN
-├── __pycache__/                   # Python cache files
-├── .gitattributes                 # Git LFS attributes
-├── .gitignore                     # Git ignore file for excluding unnecessary files
-├── data_preprocessing.py          # Script for dataset preprocessing
-├── main.py                        # Main script for running the project
-├── README.md                      # Project documentation
-├── train.py                       # Training script for models
-
 How to Run
 1. Clone the repository:
    git clone https://github.com/RushikeshGhuge-19/SAR_colorization.git
